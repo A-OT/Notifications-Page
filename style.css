@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    color: var(--Darkgrayishblue);
+    background-color: var(--White);
+    scroll-behavior: smooth;
+    font-weight: 500;
+}
+
+:root {
+    --Red: hsl(1, 90%, 64%);
+    --Blue: hsl(219, 85%, 26%);
+
+    --White: hsl(0, 0%, 100%);
+    --Verylightgrayishblue: hsl(210, 60%, 98%);
+    --Lightgrayishblue1: hsl(211, 68%, 94%);
+    --Lightgrayishblue2: hsl(205, 33%, 90%);
+    --Grayishblue: hsl(219, 14%, 63%);
+    --Darkgrayishblue: hsl(219, 12%, 42%);
+    --Verydarkblue: hsl(224, 21%, 14%);
+}
+
+.container {
+    padding: 35px 10px;
+    overflow: hidden;
+    width: 375px;
+    margin: auto;
+    /* border: 1px rebeccapurple solid; */
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 350px;
+}
+
+.Notifications{
+    font-size: 1.15em;
+    font-weight: 800;
+    color: var(--Verydarkblue);
+}
+
+.Notifications3 {
+    border-radius: 7px;
+    background-color: var(--Blue);
+    color: var(--White);
+    padding: 3px 10px;
+    font-size: 0.75em;
+    font-weight: 800;
+    margin-left: 5px;
+}
+
+.mark {
+    color: var(--Darkgrayishblue);
+    font-size: .85em;
+}
+
+.notification {
+    display: flex;
+    margin-bottom: 20px;
+    width: 350px;
+    font-size: .85em;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+img {
+    width: 35px;
+}
+
+.images {
+    margin-right: 20px;
+}
+
+.name {
+    font-weight: 800;
+    color: var(--Verydarkblue);
+    margin-right: 3px;
+}
+
+.time{
+    display: block;
+    margin: 3px 0 0;
+    font-weight: 500;
+    color: var(--Grayishblue);
+}
+
+.rizky-msg {
+    display: block;
+    border: 1px var(--Lightgrayishblue2) solid;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.chess-img{
+    height: 30px;
+    
+}
+
+.tournament, .chess {
+    margin-left: 3px;
+    font-weight: 800;
+}
+
+.chess{
+    color: var(--Blue);
+}
+
+.end-game { font-weight: 800; }
+
+#unread {
+    background-color: var(--Verylightgrayishblue);
+}
+
+.attribution a {
+    text-decoration: none;
+}
+
+.attribute-name {
+    display: block;
+    font-weight: 800;
+    margin-top: 3px;
+    text-decoration:overline;
+}
